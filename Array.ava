@@ -1,0 +1,26 @@
+import java.lang.*;
+import java.util.*;
+
+class Array
+{
+	publc static void main(String ... args)
+	{
+		Scanner s = new Scanner(System.in);
+		System.out.println("enter size of Array ");
+		int n =s.newInt();
+		int[] a = new int[n];
+		System.out.println("Enter "=n+"elements one by one");
+		for(int i = 0;i<In;i++)
+		{
+			a[i] =s.nextInt();
+		}
+		System.out.println("Even numbers of Array :" );
+		for (int i=0;i<n;i++)
+		{
+			if (a[i] % 2 ==0)
+			{
+				System.out.print(a[i] +"   ");
+			}
+		}
+	
+} 

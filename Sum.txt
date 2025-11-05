@@ -1,0 +1,10 @@
+import java.util.scanner;
+public class Sum
+{
+	public static void main(String[] args)
+	{
+		int n,sum=0;
+		Scanner s= new Scanner(System.in);
+		System.out.print("enter a number ");
+		n=s.nextInt();
+		for(int i=1;i<=n;i++
